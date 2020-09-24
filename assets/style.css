@@ -11,7 +11,6 @@ body, p, h1, h2, h3, h4, h5, h6, div, section {
     padding-inline-end:0;
 }
 
-
 body {
     font-family: 'open sans';
     font-size:20px;
@@ -72,6 +71,7 @@ nav .container {
 #hero {
     background:url("../images/light-gray-background.png");
     background-size:cover;
+
 }
 .subhead {
     margin-bottom: 40px;
@@ -96,6 +96,7 @@ nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .hero-content { 
         margin-left: -170px;
@@ -129,10 +130,20 @@ nav .container {
     margin: auto;
     padding: 100px 40px;
 }
- .container h2 {
+.container h2 {
     text-align: center;
     font-weight: normal;
     margin-bottom: 25px;
+}
+
+#process p  {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+#process img  {
+    width:90%;
 
 }
 
@@ -144,15 +155,14 @@ nav .container {
     padding:50px 10px;
 }
 
-
 #quote span {
     font-size: 32px;
 }
 
 .hero-button {
-    margin-top:40px;
-   
+    margin-top:40px; 
 }
+
 .hero-button a {
     background-color: #631F64;
     padding: 10px 30px;
@@ -161,6 +171,7 @@ nav .container {
     text-decoration: none;
     font-size:21px;
 }
+
 .hero-button a:hover {
     background-color: #8A2E8C;
 }
@@ -168,8 +179,6 @@ nav .container {
 
 .content-block.wine h2{
     color:white;
-
-
 }
 
 .grid {
@@ -178,7 +187,6 @@ nav .container {
     grid-gap:20px;
     align-items: center;
     justify-content:space-between;
-
 }
 
 #companies .grid img {
@@ -191,11 +199,8 @@ nav .container {
    
 }
 #companies h2{
-    font-size:1.1em;
-   
+    font-size:1.1em; 
 }
-
-
 
 .grid-item {
     background-color:#000000; 
@@ -208,15 +213,9 @@ nav .container {
     border:1px solid #d3d3d3;
 }
 .grid-item:hover {
-    opacity: .7;*/
+    opacity: .7;
     cursor: pointer;
- 
-  
 }
-
-
-
-
 
 
 .grid-item.one {
@@ -225,21 +224,15 @@ nav .container {
 }
 
 .grid-item.two {
-
     background-image:url("../images/seeq_homescreen.jpg");
-    background-position: center;
-    
-   
+    background-position: center; 
 }
 
-.grid-item.three {
-    
-    background-image:url("../images/usembassy-project.png");  
-    
+.grid-item.three {   
+    background-image:url("../images/usembassy-project.png");    
 }
 
-.grid-item.four {
-    
+.grid-item.four {   
     background-image:url("../images/document_upload.png");
 }
 
@@ -257,12 +250,9 @@ nav .container {
     display: inline-block;
 }
 
-
 .grid-item a.active{
     height:100%;
-    background-color:unset
-    
-    
+    background-color:unset 
 }
 
 
@@ -280,8 +270,7 @@ nav .container {
 .grid.grid2 .grid-item {
     background-color: rgb(255, 255, 255); 
     height:300px;
-    width: 33%;
-    
+    width: 33%;  
 }
 
 
